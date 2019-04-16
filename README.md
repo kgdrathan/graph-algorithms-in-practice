@@ -12,7 +12,7 @@ To download via git from your preferred terminal application, type:
 
 ## Running Jupyter Locally via Docker
 
-We've shared a Dockerfile, to make sure you can run all of these notebooks in your own time, on your own machine. This isn't required during the Learning Path, but can be useful for learning once the session is over.
+We've shared a Dockerfile, to make sure you can run all of these notebooks in your own time, on your own machine.
 
 You will need to have Docker installed on your system to create images and run containers. You can find the installation steps for all platforms on the company's [website](https://docs.docker.com/install/)
 .
