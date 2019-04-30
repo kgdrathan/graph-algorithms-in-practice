@@ -2,7 +2,7 @@ version: '3'
 services:
   training-neo4j:
     image: neo4j:3.5.4-enterprise
-    container_name: "data-science-training-neo4j"
+    container_name: "graph-algorithms-in-practice-neo4j"
     volumes:
       - ./plugins:/plugins
       - ./data:/import
@@ -14,11 +14,10 @@ services:
       - "NEO4J_AUTH=neo4j/neo"
       - "NEO4J_dbms_security_procedures_unrestricted=apoc.*,algo.*"
   training-jupyter:
-    container_name: "data-science-training-jupyter"
-    # image: jupyter/pyspark-notebook:${JUPYTER_VERSION:-latest}
+    container_name: "graph-algorithms-in-practice-jupyter"
     image: markhneedham/pyspark-graphframes-neo4j-notebook:0.0.2
     volumes:
-      - ./notebooks:/home/jovyan
+      - ./notebooks:/home/jovyan/notebooks
       - ./data:/home/jovyan/data
     ports:
       - "8888:8888"
