@@ -18,6 +18,7 @@ services:
     image: markhneedham/pyspark-graphframes-neo4j-notebook:0.0.2
     volumes:
       - ./notebooks:/home/jovyan/notebooks
+      - ./solutions:/home/jovyan/solutions
       - ./data:/home/jovyan/data
     ports:
       - "8888:8888"

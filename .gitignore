@@ -1,0 +1,4 @@
+notebooks/.ipynb*
+notebooks/.ipython*
+notebooks/.jupyter*
+notebooks/.local*
