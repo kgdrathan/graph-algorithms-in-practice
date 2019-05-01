@@ -1,4 +1,4 @@
-# Graph Algortihms in Practice
+# Graph Algorithms in Practice
 
 ![Powered by Jupyter Logo](https://cdn.oreillystatic.com/images/icons/powered_by_jupyter.png)
 
