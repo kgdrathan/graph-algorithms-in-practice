@@ -1,4 +1,4 @@
-# Graph Algortihms in ractice
+# Graph Algortihms in Practice
 
 ![Powered by Jupyter Logo](https://cdn.oreillystatic.com/images/icons/powered_by_jupyter.png)
 
